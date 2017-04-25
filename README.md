@@ -1,6 +1,6 @@
 # npmtest-wire
 
-#### test coverage for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wire.svg)](https://travis-ci.org/npmtest/node-npmtest-wire)
+#### basic test coverage for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wire.svg)](https://travis-ci.org/npmtest/node-npmtest-wire)
 
 #### A light, fast, flexible Javascript IOC container.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wire/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wire/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wire/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wire/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wire/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wire/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wire/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wire/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wire/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wire/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
         "prepublish": "bower install",
         "test": "buster-test -e node"
     },
-    "version": "0.10.11"
+    "version": "0.10.11",
+    "bin": {}
 }
 ```
 

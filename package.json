@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wire.svg)](https://travis-ci.org/npmtest/node-npmtest-wire)",
+    "description": "#### basic test coverage for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wire.svg)](https://travis-ci.org/npmtest/node-npmtest-wire)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
